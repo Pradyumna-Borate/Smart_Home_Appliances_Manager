@@ -60,8 +60,6 @@ Murray, D., Stankovic, L., & Stankovic, V. (2017). *An electrical load measureme
 
 DOI: https://doi.org/10.1038/sdata.2016.122
 
-Dataset: https://pureportal.strath.ac.uk/en/datasets/refit-electrical-load-measurements-cleaned
-
 ## ⚙️ Project Workflow
 
 The project follows these major stages:
