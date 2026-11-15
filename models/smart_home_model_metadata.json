@@ -1,0 +1,48 @@
+{
+    "project": "Smart Home Appliances Manager",
+    "model": "Tuned Random Forest",
+    "target": "Total_Energy_kWh",
+    "target_unit": "kWh",
+    "target_definition": "Sum of energy readings from nine monitored appliances",
+    "prediction_horizon": "One hour ahead",
+    "features": [
+        "Appliance1_Energy_kWh_lag1",
+        "Appliance2_Energy_kWh_lag1",
+        "Appliance3_Energy_kWh_lag1",
+        "Appliance4_Energy_kWh_lag1",
+        "Appliance5_Energy_kWh_lag1",
+        "Appliance6_Energy_kWh_lag1",
+        "Appliance7_Energy_kWh_lag1",
+        "Appliance8_Energy_kWh_lag1",
+        "Appliance9_Energy_kWh_lag1",
+        "Previous_Total_Energy_kWh",
+        "Hour_sin",
+        "Hour_cos",
+        "Day_of_Week",
+        "Month"
+    ],
+    "training_rows": 9163,
+    "test_performance": {
+        "Mean Baseline": {
+            "MAE": 0.14748313928046072,
+            "MSE": 0.05717346609844291,
+            "RMSE": 0.23910973651953807
+        },
+        "Persistence Baseline": {
+            "MAE": 0.13700937954309447,
+            "MSE": 0.06099211114077519,
+            "RMSE": 0.24696580965950568
+        },
+        "Tuned Random Forest": {
+            "MAE": 0.10406947547352031,
+            "MSE": 0.03366442857562658,
+            "RMSE": 0.18347868697924175
+        }
+    },
+    "limitations": [
+        "Represents nine monitored appliances, not necessarily the entire household electricity consumption.",
+        "Uses previous-hour appliance readings and time features.",
+        "Does not directly model hypothetical appliance ON/OFF decisions made by a game player.",
+        "May underestimate unusually high consumption events."
+    ]
+}
