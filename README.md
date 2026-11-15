@@ -2,6 +2,11 @@
 
 An intelligent household energy-management project that uses real-world electricity consumption data to analyse appliance usage, predict energy consumption, estimate electricity bills, and encourage energy-efficient behaviour through an interactive game.
 
+Team members:
+Pradyumna Borate (EC24I2010)
+Abhilash Sreenivasan (EC24I2006)
+Sarang Raj P (EC24I2017)
+
 ## 📌 Project Overview
 
 Electricity consumption in households depends on several factors, including the appliances being used, their operating durations, and the time of day. Understanding these patterns can help households reduce unnecessary energy consumption and manage electricity expenses more effectively.
