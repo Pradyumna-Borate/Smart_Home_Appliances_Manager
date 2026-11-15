@@ -161,35 +161,6 @@ The regression models will be evaluated using suitable performance metrics, incl
 - **RMSE (Root Mean Squared Error):** Measures prediction error while retaining the target's units.
 - **R² Score:** Indicates how much of the variation in the target is explained by the model.
 
-Final model comparisons and results will be added here after experimentation.
-
-## 📁 Project Structure
-
-A suggested repository structure is:
-
-```text
-Smart-Home-Appliances-Manager/
-│
-├── data/
-│   └── README.md
-│
-├── notebooks/
-│   └── Smart_Home_Appliances_Manager.ipynb
-│
-├── models/
-│   └── (Saved machine-learning models)
-│
-├── results/
-│   └── (Graphs, evaluation results and outputs)
-│
-├── app/
-│   └── (Interactive game and application files)
-│
-├── requirements.txt
-│
-└── README.md
-```
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
@@ -253,5 +224,3 @@ Murray, D., Stankovic, L., & Stankovic, V. (2017). Scientific Data, 4, 160122.
 https://doi.org/10.1038/sdata.2016.122
 
 ---
-
-*This project is developed for educational and research purposes, with the goal of applying data science and machine learning to real-world household energy-management problems.*
