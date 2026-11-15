@@ -187,14 +187,12 @@ Smart-Home-Appliances-Manager/
 └── README.md
 ```
 
-The structure may be updated as the project develops.
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/Pradyumna-Borate/Smart_Home_Appliances_Manager>
 ```
 
 ### 2. Navigate to the Project Directory
